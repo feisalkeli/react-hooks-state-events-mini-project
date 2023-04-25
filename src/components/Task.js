@@ -1,11 +1,13 @@
 import React from "react";
 
-function Task() {
+function Task({ data }) {
+  console.log(data);
+
   return (
     <div className="task">
-      <div className="label">CATEGORY HERE</div>
-      <div className="text">TEXT HERE</div>
-      <button className="delete">X</button>
+      <div className="label"></div>
+      <div className="text"></div>
+      {/* //<button className="delete">X</button> */}
     </div>
   );
 }
