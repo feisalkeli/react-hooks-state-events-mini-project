@@ -1,8 +1,9 @@
 import React from "react";
 
-function Task({ data }) {
+function Task(data) {
   console.log(data);
-
+  const { task } = data;
+  console.log(task);
   return (
     <div className="task">
       <div className="label"></div>
